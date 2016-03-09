@@ -1,0 +1,119 @@
+html, body, menu, ul, ol, li, p, div, form, h1, h2, h3, h4, h5, h6, a, img, a img, input, textarea, fieldset {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family:FZLanTingHeiS-L-GB;
+}
+
+* {
+	-webkit-tap-highlight-color: transparent;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.view {
+	width: 100%;
+	background-color: #f5f5f5;
+}
+
+.contentView {
+    width: 110px;
+    height: 103px;
+    position: relative;
+}
+
+.image {
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    top: 0px;
+    left: 33px;
+    text-align: center
+}
+
+.connectFailText {
+    width: 110px;
+    font-size: 17px;
+    color: #666666;
+    position: absolute;
+    top: 60px;
+    text-align: center
+}
+
+.refreshText {
+    width: 110px;
+    font-size: 13px;
+    color: #666666;
+    position: absolute;
+    bottom: 0px;
+    text-align: center
+}
+@media (min-width: 320px) {
+    .contentView {
+        left: 105px;
+		top: 137px;
+    }
+}
+
+@media (min-width: 360px) {
+   .contentView {
+       left: 125px;
+   }
+}
+
+@media (min-width: 375px) {
+   .contentView {
+       left: 133px;
+	   top: 230px;
+   }
+}
+
+@media (min-width: 414px) {
+    .contentView {
+        left: 152px;
+    }
+}
+
+@media (min-width: 540px) {
+    .contentView {
+        left: 215px;
+		top: 377px;
+    }
+}
+
+@media (device-height:480px) and (-webkit-min-device-pixel-ratio:2){
+	
+	.view{
+		height: 376px;
+	}
+	
+}
+
+@media (device-height:568px) and (-webkit-min-device-pixel-ratio:2){
+	
+	.view{
+		height: 464px;
+	}
+	
+}
+
+
+@media (device-height:667px) and (-webkit-min-device-pixel-ratio:2){
+	
+	.view{
+		height: 563px;
+	}
+	
+}
+
+@media (device-height:736px) and (-webkit-min-device-pixel-ratio:2){
+	
+	.view{
+		height: 632px;
+	}
+
+	
+}
